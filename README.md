@@ -1,4 +1,3 @@
-```markdown
 # Motor Vehicle Insurance Data Analysis
 
 This repository contains the analysis of a motor vehicle insurance dataset. The analysis aims to clean, process, and understand the data to derive meaningful insights that could help in making informed decisions regarding motor vehicle insurance policies.
@@ -42,5 +41,3 @@ To run the analysis:
 - Seaborn
 - JupyterLab
 - Scikit-learn
-
-```
