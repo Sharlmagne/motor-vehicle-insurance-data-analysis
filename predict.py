@@ -4,14 +4,13 @@ import numpy as np
 import pandas as pd
 
 # Load the model
-model = load("model.joblib")
-scaler = load("scaler.joblib")
+model = load("model/model.joblib")
+scaler = load("model/scaler.joblib")
 
-# Create the FastAPI app
+# Create a FastAPI app
 app = FastAPI()
 
 
-# Define a POST method for the /predict endpoint
 @app.post("/predict")
 async def predict(data: dict):
     """
